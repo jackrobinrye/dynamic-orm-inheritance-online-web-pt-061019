@@ -3,7 +3,7 @@ require 'active_support/inflector'
 
 class InteractiveRecord
 
-#changes
+#classes to inherit
   def self.table_name
     self.to_s.downcase.pluralize
   end
